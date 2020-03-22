@@ -1,3 +1,5 @@
+/*Set general style for entire site */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,6 +18,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/*Set style for Header element */
 
 header {
     padding: 20px;
@@ -50,6 +54,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Set Style for Hero image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +63,8 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+
+/* Create style for main content */
 
 main {
     width: 75%;
@@ -94,6 +102,7 @@ main {
     margin-left: 25px;
 }
 
+/*Set style for aside bar */
 
 aside {
     margin-right: 20px;
@@ -125,6 +134,8 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Style setup for Footer */
 
 footer {
     padding: 30px;
